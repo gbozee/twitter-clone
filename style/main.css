@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+}
+
+.topbar {
+  width: 100%;
+  height: 40px;
+  background-color: skyblue;
+}
+
+.centerbox {
+  width: 25%;
+  height: 200px;
+  background-color: white;
+  margin: 60px auto 0;
+}
+
+.centerbox h2 {
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.centerbox input {
+  width: 90%;
+  padding: 5%;
+  margin-bottom: 7px;
+  border-radius: 2px;
+  border: solid 0.5px #E1E8ED;
+  outline: none;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+label {
+  font-size: 12px;
+  margin: 0;
+  float: left;
+  color: grey;
+}
+
+.centerbox .checkbox {
+  width: 30px;
+  float: left;
+}
+
+button {
+  width: 100%;
+  background-color: #1DA1F2;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  padding: 5%;
+  margin-top: 20px;
+  font-size: 14px;
+}
