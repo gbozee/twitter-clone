@@ -56,3 +56,146 @@ button {
   margin-top: 20px;
   font-size: 14px;
 }
+
+.container {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  padding-left: 5%; 
+  padding-right: 5%; 
+  padding-top: 10px;
+
+}
+
+.container .sidebar {
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  float: left;
+}
+
+.container .timeline {
+    width: 68%;
+    height: auto;
+    background: white;
+    float: left;
+    margin-left: 1%;
+    border: 1px solid #e1e8ed;
+
+}
+
+.container .timeline .tweet-update {
+    width: 96%;
+    height: auto;
+    background-color: #E7F0FB;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    float: left;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background: black;
+    background-image: url('../images/ted.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.tweet-box {
+    float: left;
+    width: 88%;
+    height: 50px;
+    padding: 0 10px; 
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+}
+
+::-webkit-input-placeholder {
+    color: #0F6ADA;
+}
+
+::-moz-input-placeholder {
+    color: #0F6ADA;
+}
+
+:-ms-input-placeholder {
+    color: #0F6ADA;
+}
+
+.tweet {
+    width: 96%;
+    height: auto;
+    min-height: 80px;
+    background-color: white;
+    float: left;
+    padding: 2%;
+    border-bottom: 1px solid #e1e8ed;
+    cursor: pointer;
+}
+
+.tweet:hover {
+    background-color: #f5f5f5;
+}
+
+.profile-card {
+    width: 100%;
+    height: 300px;
+    background-color: #0F6AD9;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid #e1e8ed;
+    position: relative;
+}
+
+.profile-card .profile-card-content {
+    width: 90%;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 5%;
+}
+
+.profile-card .profile-card-content .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    background: black;
+    background-image: url('../images/ted.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+.profile-card .profile-card-content .stats {
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.profile-card .profile-card-content .stats ul {
+    list-style-type: none;
+}
+
+.profile-card .profile-card-content .stats ul li {
+    float: left;
+    margin-top: 30px;
+    width: 33.33333333333%;
+}
+
+.profile-card .profile-card-content .stats ul li p {
+    color: grey;
+}
+
+.profile-card .profile-card-content .stats ul li b {
+    color: #0F6AD9;
+    font-size: 24px;
+}
